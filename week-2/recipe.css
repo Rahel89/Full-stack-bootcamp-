@@ -1,0 +1,48 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 90px;
+}
+h1{
+    text-align: center;
+}
+
+.pics{
+  display: flex;
+}
+
+.pic1 img{
+    width: 400px;
+}
+.pic2 img{
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
+}
+.pic3 img{
+    width: 450px;
+    margin-top: 350px;
+    margin-left: -900px;
+}
+.pic4 img{
+    width: 400px;
+    margin-top: 350px;
+    margin-left: -300px;
+}
+.exp{
+    text-align: right;
+    font-weight: bold;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+label{
+    display: block;
+}

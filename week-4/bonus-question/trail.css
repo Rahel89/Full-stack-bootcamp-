@@ -1,0 +1,11 @@
+p {
+    top: 10px; 
+    left: 10px; 
+}
+.trail {
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: purple; 
+    border-radius: 50%; 
+}

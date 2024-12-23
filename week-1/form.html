@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Event registration form</title>
+</head>
+<body>
+    <h1>Event registration form</h1>
+    <form>
+        <label for ="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br/>
+        <label for ="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br/>
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+        <option>Choose an Event</option>
+        <option value="conference">Annual conference</option>
+        <option value="meet and greet">Meet and greet</option>
+        <option value="lecture">Lecture on web dev</option>
+        </select>
+        <br/>
+        <label for="date">Date of attendance</label>
+        <input type="date" id="date" name="date" required>
+        <br/>
+        <label for ="comment">Comment:</label>
+        <textarea id="comment" name="comment" placeholder="please leave a comment">Comments:</textarea>
+        <br/>
+        <button type="submit">Confirm</button>
+    </form>
+</body>
+</html>
